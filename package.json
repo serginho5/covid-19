@@ -1,0 +1,8 @@
+{
+  "name": "COVID-FRONTEND",
+  "version": "1.0.0",
+  "description": "Um site com noticias da Covide 19",
+  "main": "index.js",
+  "author": "Desenvolvedor Sérgio",
+  "license": "MIT"
+}

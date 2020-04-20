@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.header {
+  height: 70px;
+  background: #000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  box-shadow: 2px 3px 10px 2px rgba(0,0,0, 0.8);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  justify-content: space-between;
+}
+
+
+.logo img {
+  width: 45px;
+}
+
+.navbar ul, .redes ul {
+  display: flex;
+  margin: 0;
+
+}
+
+i.fa {
+  font-size: 25px;
+}
+
+.redes li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+.redes a {
+  color: #fff;
+}
+
+.redes a:hover {
+  color: #3866cd;
+  border-bottom: 0px;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar a:hover {
+  color: #3866cd;
+  border-bottom: 2px solid #3866cd;
+}
+
+/* Final do header */
+
+.banner {
+  background-image: url(../assets/banner_header.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  margin-top: 60px;
+}
+
+.content {
+  width: 1200px;
+}
+
+.content h1 {
+  margin: 0;
+  background: #01bcf3;
+  display: initial;
+  width: 100%;
+  line-height: 65px;
+  padding: 8px 23px;
+  color: #002743;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 27px;
+}
+
+/* Inicio card */
+.noticias {
+  display: flex;
+  justify-content: center;
+}
+
+.notiMain {
+  width: 1200px;
+  margin: 45px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.notiMain a {
+  text-decoration: none;
+  color: initial;
+}
+
+.notiMain a:hover .card {
+  box-shadow: 2px 3px 15px 3px rgba(0,0,0, 0.3);
+}
+
+.card {
+  width: 375px;
+  height: 414px;
+  max-height: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border: 2px solid #e6e1cf;
+}
+
+
+.card img {
+  width: 100%;
+  max-height: 200px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card h2 {
+  line-height: 1.0;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0 12px;
+}
+
+.card p {
+  padding: 0 12px;
+}
+
+/* Inicio Saiba */
+.saiba {
+  background: #2e8e06;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.saibaMain {
+  width: 1200px;
+}
+
+.saibaMain h2 {
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  line-height: 1.0;
+}
+
+.boxIcon {
+  width: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxIcon p {
+  font-size: 17px;
+  font-weight: 600;
+  color: #d0caca;
+}
+
+.saibaIcon {
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-around;
+}
+
+/* Inicio Conheça */
+.conheca {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.conNain {
+  width: 1200px;
+}
+
+.conNain h2 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.0;
+}
+
+span {
+  color: #2e8e06;
+  font-size: 33px;
+}
+
+.textCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+  margin: 0 20px;
+}
+
+.rigth {
+  width: 50%;
+  margin: 0 20px;
+}
+
+/* Inicio Conheça */
+.footer {
+  background: #002743;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: #fff;
+}
